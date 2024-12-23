@@ -90,6 +90,28 @@ body {
             object-fit: cover;
           }
         }
+        .art-title {
+          font: bold 1.11rem/1 "arial";
+        }
+        .sub-detail {
+          p {
+            font: normal 0.58rem/1 "arial";
+          }
+        }
+        .art-info {
+          .like,
+          .view {
+            font: bold 0.82rem/1 "arial";
+            color: #e9e7e7;
+            i {
+              color: crimson;
+              margin-right: 3px;
+              &.fa-eye {
+                color: #ccc;
+              }
+            }
+          }
+        }
       }
     }
   }
